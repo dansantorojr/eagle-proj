@@ -7340,10 +7340,6 @@ the enclosure.</text>
 </net>
 <net name="!C1_EN!" class="0">
 <segment>
-<wire x1="40.64" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
-<label x="30.48" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="228.6" y1="226.06" x2="228.6" y2="223.52" width="0.1524" layer="91"/>
@@ -7356,9 +7352,10 @@ the enclosure.</text>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="45.72" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="50.8" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="50.8" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 <junction x="43.18" y="50.8"/>
+<label x="33.02" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="213.36" y1="27.94" x2="276.86" y2="27.94" width="0.1524" layer="91"/>
@@ -7367,10 +7364,6 @@ the enclosure.</text>
 </segment>
 </net>
 <net name="!C2_EN!" class="0">
-<segment>
-<wire x1="86.36" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
-<label x="76.2" y="50.8" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
@@ -7383,10 +7376,11 @@ the enclosure.</text>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="53.34" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="G"/>
 <wire x1="91.44" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 <junction x="88.9" y="50.8"/>
+<label x="76.2" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="276.86" y1="30.48" x2="213.36" y2="30.48" width="0.1524" layer="91"/>
@@ -7542,10 +7536,6 @@ the enclosure.</text>
 </net>
 <net name="!BUTTON!" class="0">
 <segment>
-<wire x1="132.08" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
-<label x="121.92" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="393.7" y1="139.7" x2="396.24" y2="139.7" width="0.1524" layer="91"/>
@@ -7568,19 +7558,14 @@ the enclosure.</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="50.8" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="50.8" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 <junction x="134.62" y="50.8"/>
+<label x="121.92" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="157.48" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="AVP"/>
-<wire x1="71.12" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
-<junction x="71.12" y="162.56"/>
 <wire x1="81.28" y1="162.56" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="162.56" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
@@ -7590,7 +7575,13 @@ the enclosure.</text>
 <junction x="91.44" y="162.56"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="157.48" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="157.48" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
 <junction x="81.28" y="162.56"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
+<junction x="71.12" y="162.56"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -7665,11 +7656,6 @@ the enclosure.</text>
 <wire x1="381" y1="139.7" x2="383.54" y2="139.7" width="0.1524" layer="91"/>
 <junction x="381" y="139.7"/>
 <label x="370.84" y="139.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<wire x1="71.12" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
